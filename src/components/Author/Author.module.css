@@ -1,0 +1,16 @@
+.author{
+    display: flex;
+    align-items: center;
+  }
+  .author img{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+ 
+  .author span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+  }

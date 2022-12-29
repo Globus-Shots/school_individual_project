@@ -1,0 +1,11 @@
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 75px;
+}
+
+.title_block a{
+    margin: 15px 0 0 2px;
+}

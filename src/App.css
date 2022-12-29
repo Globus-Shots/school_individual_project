@@ -1,0 +1,68 @@
+
+/* APP */
+
+.app-container{
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.app-wrapper-content{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.app-content{
+  height: 650px;
+  width: 86%;
+  
+  background-color: rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.app-inner-content{
+  margin-top: 20px;
+  padding: 10px;
+  height: 600px;
+}
+
+/* buttons/links/UI */
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 305px;
+  height: 30px;
+}
+.btn img{
+  width: 30px;
+  padding-right: 5px;
+  margin-left: -5px;
+}
+.btn.gold{
+  color: #333;
+  background-color: gold;
+  transition: background-color .2s linear;
+}
+.btn.gold:hover{
+  color: gold;
+  background-color: #333;
+}
+
+/* Selectors */
+
+.gold{
+  color: rgb(243, 206, 0);
+  font-weight: 600;
+}

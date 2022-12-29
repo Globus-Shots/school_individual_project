@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.descr{
+    border-top: 5px solid gold;
+    background-color: #fff;
+    border-radius: 5px;
+
+    padding: 10px;
+}

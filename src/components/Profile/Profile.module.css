@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+    margin: 20px;
+}
+
+
+
+.block{
+    background-color: #fff;
+    border-radius: 10px;
+    border-top: 3px solid gold;
+    
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+}
